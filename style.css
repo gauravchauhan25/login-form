@@ -1,0 +1,204 @@
+/* Reset default browser styles */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins';
+        overflow: hidden;
+      }
+      
+      body {
+        background: linear-gradient(to bottom right, #1e1e2f, #302f4d);
+        /* height: 100vh; */
+      }
+      
+      .container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: #fff;
+      }
+
+      .logo {
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: #1e1e42;
+      }
+
+      .nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 2rem;
+        font-size: 1rem;
+      }
+
+      
+      .sign-in-btn {
+        background: #00aaff;
+        border: none;
+        padding: 10px 28px;
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      .sign-in-btn:hover {
+        background: #008ecc;
+      }
+      
+      .login-wrapper {
+        display: flex;
+        width: 100%;
+      }
+      
+      .login-form {
+        background-color: #1e1e42;
+        padding: 40px;
+        width: 35%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2rem 2rem 2rem 0 #420958;
+      }
+      
+      .avatar img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+      }
+
+      .login-form input {
+        color: #9c9c9c;
+        border: 1px solid #9c9c9c;
+      }
+
+      .login-form .icon {
+        color: #9c9c9c;
+        position: relative;
+        top: 2.9rem;
+        left: 8rem;
+        font-size: 1rem;
+        line-height: 1rem;
+  }
+  
+      .input-field {
+        background-color: transparent;
+        /* border: 2px solid #ffffff; */
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 20px;
+      }
+      
+      .login-button {
+        background-color: #ff0077;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px 0;
+        width: 80%;
+      }
+      
+      .login-button:hover {
+        background-color: #a7024c;
+      }
+      
+      .options {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        color: #999;
+        font-size: 12px;
+      }
+      
+      .options a {
+        color: #b0b2b3;
+        text-decoration: none;
+      }
+      
+      .options a:hover {
+        text-decoration: underline;
+      }
+
+      /* Add this code to the existing styles */
+
+
+      /* .welcome-section h1 {
+        font-size: 2.7rem;
+        margin-bottom: 20px;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+      }
+      .welcome-section p {
+        font-size: 1rem;
+      }
+      
+      .welcome-section p, .welcome-section a {
+        position: relative;
+        z-index: 10;
+        color: #fff;
+      }  */
+      
+/* Wave effect using conic gradients */
+
+.welcome-section {
+        width: 65%;
+        padding: 40px;
+        background: radial-gradient(circle at 30% 30%, rgba(96, 30, 212, 0.8), transparent 40%),
+                    radial-gradient(circle at 70% 70%, rgba(157, 65, 246, 0.7), transparent 50%),
+                    radial-gradient(circle at 50% 50%, rgba(255, 0, 102, 0.5), transparent 60%);
+        background-color: #1e1e2f; /* Fallback color */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .welcome-section::before {
+        content: '';
+        position: absolute;
+        top: -150px;
+        left: -150px;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle at 50% 50%, rgba(96, 30, 212, 0.8), transparent 70%);
+        filter: blur(150px);
+        opacity: 0.5;
+        z-index: 1;
+      }
+      
+      .welcome-section h1,
+      .welcome-section p,
+      .welcome-section a {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+      }
+
+      .box {
+        position: absolute;
+        right: 6rem;
+        bottom: 10rem;
+        width: 50%;
+        height: auto;
+        padding: 0.8rem;
+        display: grid;
+        align-items: flex-end;
+      }
