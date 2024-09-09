@@ -62,7 +62,7 @@
       .login-form {
         background-color: #1e1e42;
         padding: 40px;
-        width: 35%;
+        width: 40%;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -156,7 +156,7 @@
 /* Wave effect using conic gradients */
 
 .welcome-section {
-        width: 65%;
+        width: 60%;
         padding: 40px;
         background: radial-gradient(circle at 30% 30%, rgba(96, 30, 212, 0.8), transparent 40%),
                     radial-gradient(circle at 70% 70%, rgba(157, 65, 246, 0.7), transparent 50%),
